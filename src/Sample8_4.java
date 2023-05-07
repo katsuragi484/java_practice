@@ -19,7 +19,10 @@ class Car{
 public class Sample8_4 {
     public static void main(String[] args) {
         Car car1 = new Car();
-        car1.setNum(5678);
-        car1.setGas(30.5);
+        int number = 1234;
+        double gasoline = 20.5;
+
+        car1.setNum(number);
+        car1.setGas(gasoline);
     }
 }
